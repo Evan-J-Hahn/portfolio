@@ -13,6 +13,12 @@
 		/>
 		<link
 			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
 			href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
 			integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
 			crossorigin="anonymous"
@@ -129,90 +135,87 @@
 			</section>
 			<!-- End of Summary -->
 
-			<section class="projects" id="projects">
-				<div class="projects-content wow fade-in-up" data-wow-delay="0.5s">
-					<header>
-						<h2>My latest work</h2>
-					</header>
-					<hr />
-					<p>Some of my greatest and latest projects.</p>
-				</div>
-				<!-- End of Projects Content -->
-				<div class="projects-container">
-					<figure class="projects-item wow fade-in" data-wow-delay="0.5s">
-						<div class="project-image">
-							<img src="images/dashwinner-summary.png" alt="project" />
-							<a href="dash-winner.html#main-content"
-								><div class="project-image-overlay fade-in-hover"></div
-							></a>
-						</div>
-						<!-- End of Project Image -->
-						<figcaption class="project-description">
-							<p>
-								Post a Dash treasury proposal to raise pre-proposal funding and
-								gain popularity.
-							</p>
-						</figcaption>
-						<!-- End of Project Description -->
-					</figure>
-					<!-- End of Projects Item -->
+			<!-- <div class="projects-item wow fade-in" data-wow-delay="0.5s"></div> -->
 
-					<figure class="projects-item wow fade-in" data-wow-delay="0.5s">
-						<div class="project-image">
-							<img src="images/smart-seo-summary.png" alt="project" />
-							<a href="smart-seo.html#main-content"
-								><div class="project-image-overlay fade-in-hover"></div
-							></a>
+			<section id="projects">
+					<div class="container my-5">
+						<div class="wow fade-in-up" data-wow-delay="0.5s">
+							<header>
+								<h2>My latest work</h2>
+							</header>
+							<hr id="leftHR" />
+	
+							<p>Some of my greatest and latest projects.</p>
 						</div>
-						<!-- End of Project Image -->
-						<figcaption class="project-description">
-							<p>
-								SEO Agency that drives traffic to your business and redesigns
-								its user experience.
-							</p>
-						</figcaption>
-						<!-- End of Project Description -->
-					</figure>
-					<!-- End of Projects Item -->
-
-					<figure class="projects-item wow fade-in" data-wow-delay="0.5s">
-						<div class="project-image">
-							<img src="images/digital-elite-summary.png" alt="project" />
-							<a href="digital-elite.html#main-content"
-								><div class="project-image-overlay fade-in-hover"></div
-							></a>
+					<div class="row mt-4">
+						<div class="col-md-6 col-lg-4 mb-3 d-flex">
+							<div class="card wow fade-in-up" data-wow-delay="0.6s">
+								<img
+									src="images/dashwinner-summary.png"
+									alt=""
+									class="card-img-top"
+								/>
+								<div class="card-body">
+									<h2 class="card-title">Shop</h2>
+									<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quasi adipisci quibusdam cum omnis mollitia placeat excepturi? Provident, tempora odio...</p>
+								</div>
+								<div class="card-footer">
+									<a href="clothing-store.html#main-content" class="btn btn-outline-primary">Details</a>
+								</div>
+							</div>
 						</div>
-						<!-- End of Project Image -->
-						<figcaption class="project-description">
-							<p>
-								Set your online business on autopilot with Digital Elite. They
-								host, manage and promote your business.
-							</p>
-						</figcaption>
-						<!-- End of Project Description -->
-					</figure>
-					<!-- End of Projects Item -->
-
-					<figure class="projects-item wow fade-in" data-wow-delay="0.5s">
-						<div class="project-image">
-							<img src="images/python-fitness-summary.png" alt="project" />
-							<a href="python-fitness.html#main-content"
-								><div class="project-image-overlay fade-in-hover"></div
-							></a>
+						<div class="col-md-6 col-lg-4 mb-3 d-flex">
+							<div class="card wow fade-in-up" data-wow-delay="0.9s">
+								<img
+									src="images/smart-seo-summary.png"
+									alt=""
+									class="card-img-top"
+								/>
+								<div class="card-body">
+									<h2 class="card-title">Expense</h2>
+									<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quasi adipisci quibusdam cum omnis mollitia placeat excepturi? Provident, tempora odio...</p>
+								</div>
+								<div class="card-footer">
+									<a href="expensify.html#main-content" class="btn btn-outline-primary">Details</a>
+								</div>
+							</div>
 						</div>
-						<!-- End of Project Image -->
-						<figcaption class="project-description">
-							<p>
-								A gym chain that develops fitness routines with the most
-								accomplished athletes in the industry.
-							</p>
-						</figcaption>
-						<!-- End of Project Description -->
-					</figure>
-					<!-- End of Projects Item -->
-				</div>
-				<!-- End of Projects Container -->
+						
+						<div class="col-md-6 col-lg-4 mb-3 d-flex">
+							<div class="card wow fade-in-up" data-wow-delay="0.8s">
+								<img
+									src="images/python-fitness-summary.png"
+									alt=""
+									class="card-img-top"
+								/>
+								<div class="card-body">
+									<h2 class="card-title">Weather</h2>
+									<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quasi adipisci quibusdam cum omnis mollitia placeat excepturi? Provident, tempora odio...</p>
+								</div>
+								<div class="card-footer">
+									<a href="daily-weather.html#main-content" class="btn btn-outline-primary">Details</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4 mb-3 d-flex">
+							<div class="card wow fade-in-up" data-wow-delay="0.7s">
+								<img
+									src="images/digital-elite-summary.png"
+									alt=""
+									class="card-img-top"
+								/>
+								<div class="card-body">
+									<h2 class="card-title">Chat</h2>
+									<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quasi adipisci quibusdam cum omnis mollitia placeat excepturi? Provident, tempora odio...</p>
+								</div>
+								<div class="card-footer">
+									<a href="igloo-chat.html#main-content" class="btn btn-outline-primary">Details</a>
+								</div>
+							</div>
+						</div>
+					</div>
 			</section>
+
 			<!-- End of Projects -->
 
 			<section class="technological-skills">
@@ -437,5 +440,20 @@
 		<script>
 			new WOW().init();
 		</script>
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+			integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+			crossorigin="anonymous"
+		></script>
 	</body>
 </html>
